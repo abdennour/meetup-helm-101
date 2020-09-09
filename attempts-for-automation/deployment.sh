@@ -1,3 +1,5 @@
+#!/bin/sh
+
 ## deployment.sh default 19 
 #
 ns=$1
