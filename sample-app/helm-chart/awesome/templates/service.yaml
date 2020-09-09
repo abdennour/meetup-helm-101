@@ -1,0 +1,17 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: awesome
+  labels:
+    app: awesome
+    released-by: kubectl-apply
+spec:
+  selector:
+    app: awesome
+  ports:
+    - name: http
+      protocol: TCP
+      port: 80
+      targetPort: http-server
+  

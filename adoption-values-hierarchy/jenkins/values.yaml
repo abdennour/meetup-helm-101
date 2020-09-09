@@ -1,5 +1,4 @@
 master:
-  adminPassword: MyPass
   ingress:
     enabled: true
     # paths: ["/"]
